@@ -1,5 +1,5 @@
 import React from 'react';
-import SignIn from '../components/Auth/signin';
+import Signin from '../components/Auth/signin';
 
 
 const SignInPage = () => {
@@ -10,7 +10,7 @@ const SignInPage = () => {
           Sign in to your account
         </h2>
       </div>
-      <SignIn/>
+    <Signin/>
     </div>
   );
 };
